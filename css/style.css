@@ -19,7 +19,43 @@ body{
     margin-top: 0px;
 
 }
-
+.production{
+    width: 90%;
+    margin: 0% auto;
+    display: flex;
+    justify-content: center;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 30px;
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.data .sheds{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.data > form{
+    width: 100%;
+    padding: 20px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: green;
+    font-size: large;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: 2px solid white ;
+}
 /* .main{
     display: flex;
     width: 100%;
