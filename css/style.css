@@ -2,14 +2,25 @@
 body{
     margin: 0px;
     padding: 0px;
-    color: #f1f1f1;
-    background-color: black;
+    color: black;
+    background-color: orange;
     font-family: 'hack';
     font-size: 20px;
     box-sizing: border-box;
     
 }
-.main{
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    color: black;
+    height: 50px;
+    margin-top: 0px;
+
+}
+
+/* .main{
     display: flex;
     width: 100%;
     /* position: absolute;
@@ -17,7 +28,7 @@ body{
     left: 50%;
     text-align: center; */
 }
-.image{
+/* .image{
     width: 30%;
 }
 .image img{
@@ -47,4 +58,4 @@ body{
 }
 .profit h3 span,.color p{
     font-style: italic;
-}
+} */ */
