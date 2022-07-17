@@ -8,27 +8,31 @@
     <title>Diary farm</title>
 </head>
 <body>
-    <div class="main">
-        <div class="content">
-            <div class="profit">
-                <h3><span>shed A</span>  production in a day</h3> 
-            
-                <p>your profit for shed A is <span>13,000</span></p>
-            </div>
-            <br>
-            <br>
-            <br>
+    <section>
+        <h3 id="heading">Dairy Farm</h3>
+        <div class="production">
             <div class="data">
-                <form action="">
-                    <input type="text" name="name" id="name">
+                <form action="submit" onsubmit="produceReport();">
+                    <h4>fill and submit form below to receive total income </h4>
+                    <div class="sheds">
+                        <label for="Shed_A">Shed_A:milk(ltrs)</label>
+                        <input type="number" id="Shed_A" min="0" required>
+                    </div>
+                    <div class="sheds">
+                        <label for="Shed_B">Shed_B:milk(ltrs)</label>
+                        <input type="number" id="Shed_B" min="0" required>
+                    </div>
+                    <div class="sheds">
+                        <label for="Shed_C">Shed_C:milk(ltrs)</label>
+                        <input type="number" id="Shed_C" min="0" required>
+                    </div>
+                    <div class="sheds">
+                        <label for="Shed_D">Shed_D:milk(ltrs)</label>
+                        <input type="number" id="Shed_D" min="0" required>
+                    </div>
                     <button type="submit">submit</button>
+                    <button id="refresh" type="reset" onclick="resetPage();">refresh</button>
                 </form>
-            </div>
-        </div>
-        <div class="image">
-            <img src="" alt="">
-        </div>
-    </div>
     <script src="/javascript/index.js"></script>
 </body>
 </html>
