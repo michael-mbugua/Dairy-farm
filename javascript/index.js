@@ -68,6 +68,52 @@ function productionReport(){
 
     document.getElementById("data2").innerHTML +="<Br>"
     document.getElementById("data2").innerHTML +="<hr>"
+
+
+    newDailyIncome = sumData * 49.60;
+
+    newIncomeJanuary = newDailyIncome * 31;
+    newIncomeFebruary = newDailyIncome * 29;
+    newIncomeMarch = newDailyIncome * 31;
+    newIncomeApril = newDailyIncome * 30;
+    newIncomeMay = newDailyIncome * 31;
+    newIncomeJune = newDailyIncome * 30;
+    newIncomeJuly = newDailyIncome * 31;
+    newIncomeAugust = newDailyIncome * 31;
+    newIncomeSeptember = newDailyIncome * 30;
+    newIncomeOctober = newDailyIncome * 31;
+    newIncomeNovember = newDailyIncome * 30;
+    newIncomeDecember = newDailyIncome * 31;
+
+    newIncomeInLeapYear = 366 * 49.60;
+
+    incomeJanuaryDifference = newIncomeJanuary - incomeJanuary;
+    incomeFebruaryDifference = newIncomeFebruary - incomeFebruary;
+    incomeMarchDifference = newIncomeMarch - incomeMarch;
+    incomeAprilDifference = newIncomeApril - incomeApril;
+    incomeMayDifference = newIncomeMay - incomeMay;
+    incomeJuneDifference = newIncomeJune - incomeJune;
+    incomeJulyDifference = newIncomeJuly - incomeJuly;
+    incomeAugustDifference = newIncomeAugust - incomeAugust;
+    incomeSeptemberDifference = newIncomeSeptember - incomeSeptember;
+    incomeOctoberDifference = newIncomeOctober - incomeOctober;
+    incomeNovemberDifference = newIncomeNovember - incomeNovember;
+    incomeDecemberDifference = newIncomeDecember - incomeDecember;
+
+    document.getElementById("data2").innerHTML += "<p>January: At price = Ksh. 45, you earn: Ksh. " + incomeJanuary + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeJanuaryDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>February: At price = Ksh. 45, you earn: Ksh. " + incomeFebruary + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeFebruaryDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>March: At price = Ksh. 45, you earn: Ksh. " + incomeMarch + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeMarchDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>April: At price = Ksh. 45, you earn: Ksh. " + incomeApril + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeArilDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>May: At price = Ksh. 45, you earn: Ksh. " + incomeMay + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeMayDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>June: At price = Ksh. 45, you earn: Ksh. " + incomeJune + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeJuneDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>July: At price = Ksh. 45, you earn: Ksh. " + incomeJuly + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeJulyDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>July: At price = Ksh. 45, you earn: Ksh. " + incomeJuly + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeJulyDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>August: At price = Ksh. 45, you earn: Ksh. " + incomeAugust + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeAugustDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>September: At price = Ksh. 45, you earn: Ksh. " + incomeSeptember + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeSeptemberDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>September: At price = Ksh. 45, you earn: Ksh. " + incomeOctober + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeOctoberDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>November: At price = Ksh. 45, you earn: Ksh. " + incomeNovember + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeNovemberDifference) + ".</p>";
+    document.getElementById("data2").innerHTML += "<p>December: At price = Ksh. 45, you earn: Ksh. " + incomeDecember + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, rounded off to the nearest value, is Ksh. " + Math.round(incomeDecemberDifference) + ".</p>";
+
 }
 
 function resetPage(){
