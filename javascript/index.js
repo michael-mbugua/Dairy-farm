@@ -65,11 +65,13 @@ function productionReport(){
 
     incomeLeapYear=dailyIncome * 366;
     document.getElementById("data2").innerHTML +="<p>Your total income in a leap year is ksh " + incomeLeapYear +"</p>"
-    
+
     document.getElementById("data2").innerHTML +="<Br>"
     document.getElementById("data2").innerHTML +="<hr>"
+}
 
-
-
+function resetPage(){
+    document.getElementById("data2").remove("innerHTML");
+    location.reload();
 
 }
