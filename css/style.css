@@ -60,6 +60,7 @@ button{
     text-transform: capitalize;
     border: 2px solid white ;
 }
+/* form > button[type = "submit"], form > button[type = "reset"] */
 .display{
     overflow: auto;
     width: 50%;
