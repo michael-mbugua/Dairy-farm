@@ -60,5 +60,16 @@ function productionReport(){
     document.getElementById("data2").innerHTML +="<p> Your total income for the month of November is ksh. " + incomeNovember + "</p>"
     document.getElementById("data2").innerHTML +="<p> Your total income for the month of December is ksh. " + incomeDecember + "</p>"
 
+    document.getElementById("data2").innerHTML +="<Br>"
+    document.getElementById("data2").innerHTML +="<hr>"
+
+    incomeLeapYear=dailyIncome * 366;
+    document.getElementById("data2").innerHTML +="<p>Your total income in a leap year is ksh " + incomeLeapYear +"</p>"
+    
+    document.getElementById("data2").innerHTML +="<Br>"
+    document.getElementById("data2").innerHTML +="<hr>"
+
+
+
 
 }
